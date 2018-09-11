@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+apt-get -y update
+apt-get -y install openssh-server python
+mkdir -p  ~/.ssh
+
+chmod 700 ~/.ssh
+
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDufRQWIq3ih9GQon35w4Ip/D8ar2OoopTNmFUeTu4IzkeW+Q1r3F9QElLMYI8C5kCdKuR3dkLEGQjx2PFaZZHHyc51BWxWbLCTIgInts9b8bW5ZMDE0qo6i+l07mJdPm0KZuR0Jff8iYOYbmsWgsyIRTmjKy/AhZYqk7KVh8vuldwpPcqvVajkST1C1FrXroscgmE9Dz9arxQlZhiA6+RCV++eVY7YCdWkJr7ExA67hVa6ju+CRq2fPd0RM06yP2eYj7Rx4xWqoqKYEO/LUqKbkcRZvcT5lDkaFHKGoQeG9xvFkKgYmE3czMEJ6Oy0rsFv3eVky1JNFlXob1NE+HwGgxuethMk1hdJFFrmJmukcAlinJ6aYSBe+KuBkEU0X10gmbljRd3nWS+Bd0lhTr7lebtGWjYL+2zL8PWNOdtYKaO7WZe1wD/ad60YdWWhZR7yVxvety3mbnyIqmXxQxZf6wVaTxy8WknkQrnvZwKOCniQ9F2Zz6t1dC2kQ9JXEvdUiwtpqQKq4o/C4fuOXlz9EO46hppsAXkYaQCFuUNzbRFtVZijQg12noGaHc6EKkipKH3aeLph0+iBfytKupeK67NppiKxEzCeY6givQLxUH8GUsxnQTWOH180k/cHFnb2jOxp2n9dEIpLPQl88X9GZkgW7+LQkWUdpiHvjSq2/Q== mycompu2" > ~/.ssh/authorized_keys

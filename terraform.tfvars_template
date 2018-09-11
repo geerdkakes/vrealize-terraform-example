@@ -1,0 +1,8 @@
+vpc-tenant           = ""
+vpc-user             = ""
+vpc-password         = ""
+admin-password       = ""
+vpc-vra_server       = ""
+vpc-sub_tenant_re    = ""
+vpc-vm_prefix        = ""
+

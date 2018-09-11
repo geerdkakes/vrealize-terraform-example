@@ -1,0 +1,5 @@
+terraform.tfvars
+terraform.tfstate
+example_module/.terraform/*
+.terraform/*
+output.json
